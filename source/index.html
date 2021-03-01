@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link href="stylesheets/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="bg-primary">
+        <div class="container">
+            <div class="row justify-content-center py-4">
+                <div class="col-md-3">
+                    <img src="images/BMICLogo.png" class="d-block mx-auto my-3">
+                </div>
+                <div class="col-md-3 text-warning">
+                    <form class="position-relative">
+                        <div class="form-group">
+                            <label for="inputHeight">身高 cm</label>
+                            <input type="text" name="height" class="form-control rounded border-warning header-input_border" id="inputHeight" placeholder="請輸入身高">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputWeight">體重 kg</label>
+                            <input type="text" name="weight" class="form-control rounded border-warning header-input_border" id="inputWeight" placeholder="請輸入體重">
+                            <small class="form-text text-danger position-absolute form-group-js"></small>
+                        </div>                            
+                    </form>
+        
+                </div>
+                <div class="col-md-3 d-flex">
+                    <button class="d-block rounded-circle bg-warning border-0 mt-4 ml-md-3  header-button-js hover-effect" style="height:120px; width:120px">
+                        看結果
+                    </button>
+                    <div class="position-absolute header-img-js .header-img d-none">
+                    </div>
+                    <p class="ml-3 my-auto h4 header-p-js"></p>
+                </div>
+            </div> 
+        </div>
+    </header>
+
+    <section class="main container">
+        <h1 class="text-center h5 my-5">BMI 記録</h1>
+        <div class="row record justify-content-center">
+            
+        </div>
+    </section>
+
+    <footer class="bg-warning w-100 fixed-bottom">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-1">
+                    <img src="images/BMICLogo.png" class="footer-img_dark mx-auto d-block w-50 py-2">
+                </div>
+            </div>
+        </div>  
+    </footer>
+
+    <script src="javascripts/vendor.js"></script>
+    <script src="javascripts/scripts.js"></script>
+</body>
+
+</html>

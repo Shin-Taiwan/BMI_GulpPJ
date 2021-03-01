@@ -1,0 +1,13 @@
+.hover-effect{
+    &:hover{
+        box-shadow: 0 0 10px gray;
+    };
+    &:active{
+        background-color: #DEA821;
+    }
+}
+
+.bg-cover{
+    background-position: center center;
+    background-repeat: no-repeat;
+}
